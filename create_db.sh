@@ -8,9 +8,9 @@ echo $database_owner
 
 
 
-psql --host=rds-eks-db-odoo.clgnyaxunaji.us-east-1.rds.amazonaws.com --port=5432 --username=postgres --password 
+PGPASSWORD = "S0p0rt3gAn3m0" psql --host=rds-eks-db-odoo.clgnyaxunaji.us-east-1.rds.amazonaws.com --port=5432 --username=postgres  
 
-$1
+
 
 create database $2 with template template0;
 
