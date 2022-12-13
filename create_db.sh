@@ -8,7 +8,7 @@ echo $database_owner
 
 
 
-PGPASSWORD = "S0p0rt3gAn3m0" psql --host=rds-eks-db-odoo.clgnyaxunaji.us-east-1.rds.amazonaws.com --port=5432 --username=postgres  
+PGPASSWORD = "X" psql --host=rds-eks-db-odoo.clgnyaxunaji.us-east-1.rds.amazonaws.com --port=5432 --username=postgres  
 
 
 
